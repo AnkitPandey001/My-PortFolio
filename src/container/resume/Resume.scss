@@ -1,0 +1,76 @@
+.resume {
+  height: 100%;
+}
+.timeline {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+
+  &_education {
+    width: 50%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_header_text {
+      display: inline-block;
+      color: var(--yellow-theme-sub-text-color);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1rem;
+      letter-spacing: 0.5px;
+      position: relative;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-bottom: 2px solid var(--yellow-theme-main-color);
+    }
+    &_header_text::before,
+    &_header_text::after {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 5px;
+      background-color: var(--yellow-theme-main-color);
+      bottom: -1px;
+    }
+    &_header_text::before {
+      left: 0;
+    }
+    &_header_text::after {
+      right: 0;
+    }
+
+    &_vertical_timeline_element {
+      padding: 0 0 30px 0;
+
+      &:last-child {
+        padding-bottom: 0px;
+      }
+    }
+    .vertical_timeline_element_title_wrapper {
+      display: flex;
+      align-items: center;
+
+      h3,
+      h4 {
+        font-size: 16px;
+      }
+      h4 {
+        margin-left: 8px;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+
+    &_education {
+      width: 100%;
+    }
+  }
+}

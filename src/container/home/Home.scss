@@ -1,0 +1,91 @@
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &_text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      color: var(--yellow-theme-main-color);
+      margin: 0;
+      font-family: 500;
+      font-size: 6.5rem;
+      line-height: 10rem;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typingEffectAnimation 2.5s steps(30,end);
+    }
+  }
+  &_contact_me{
+    display: flex;
+    justify-content: center;
+    
+    button{
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 10px 70px;
+        margin-top: 55px;
+        background: transparent;
+        color: var(--yellow-theme-main-color);
+        border: 1.5px solid var(--yellow-theme-main-color);
+        border-radius: 4px;
+        font-weight: 500;
+        &:hover{
+            background: var(--yellow-theme-main-color);
+            color: #000000;
+        }
+
+    }
+    &_btn-1{
+      margin-left: 10px;
+    }
+
+  }
+}
+@media only screen and (max-width: 550px) {
+ .home{
+  overflow: hidden;
+ }
+  .home_text-wrapper h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+    
+  }
+  .home_contact_me{
+    margin-top: 100px;
+    button{
+      margin-top: -50px;
+      width: 42%;
+           
+    }
+  }
+}
+@media only screen and (min-width: 551) and (max-width: 768px) {
+  .home_text-wrapper h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  
+}
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .home_text-wrapper h1 {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+  
+}
+@keyframes typingEffectAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

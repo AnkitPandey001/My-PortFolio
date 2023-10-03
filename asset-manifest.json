@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-PortFolio/static/css/main.11ded07c.css",
+    "main.js": "/My-PortFolio/static/js/main.ade9892b.js",
+    "static/media/second.jpg": "/My-PortFolio/static/media/second.54bd6c3f138ec32c6047.jpg",
+    "static/media/Todo.jpg": "/My-PortFolio/static/media/Todo.9140727631e4a6bfdc69.jpg",
+    "static/media/Random-Password-Generator.webp": "/My-PortFolio/static/media/Random-Password-Generator.ab9a84717813112c29f5.webp",
+    "static/media/scheme.png": "/My-PortFolio/static/media/scheme.43d2d4af2ee9b226c98c.png",
+    "static/media/fourth.jpg": "/My-PortFolio/static/media/fourth.d5f8461bb90de8ee37c5.jpg",
+    "index.html": "/My-PortFolio/index.html",
+    "main.11ded07c.css.map": "/My-PortFolio/static/css/main.11ded07c.css.map",
+    "main.ade9892b.js.map": "/My-PortFolio/static/js/main.ade9892b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11ded07c.css",
+    "static/js/main.ade9892b.js"
+  ]
+}

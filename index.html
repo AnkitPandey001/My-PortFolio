@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAv Section -->
+    <header class="header">
+      <a href="#home" class="logo">Pandey <span>Ankit</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+      </nav>
+    </header>
+
+    <!-- First Pages -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Ankit Pandey</span></h1>
+        <h3 class="text-animation">I'm a Full Stack Developer</h3>
+        <p>
+          I’m a passionate and dedicated aspiring full-stack developer.
+          Currently,<br />
+          I am deepening my knowledge and skills in full-stack development
+          throu-<br />gh hands-on projects. My interests lie in coding and
+          developing innovative<br />web applications.
+        </p>
+        <div class="social_icon">
+          <a href="https://www.linkedin.com/in/pandeyankit001/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/AnkitPandey001"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="" class="btn"> Resume</a>
+        </div>
+      </div>
+      <div class="home_img">
+        <img src="profileimg.jpg" alt="profile Img" />
+      </div>
+
+      <!-- Education Section -->
+    </section>
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      <div class="timeline-items">
+
+      <!-- CLass 10 -->
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022-2026</div>
+          <div class="timeline_3d">
+            <div class="timeline-content">
+              <h3>Chitkara University (Himachal Pardesh)</h3>
+              <h3>BE (Computer Science and Engineering)</h3>
+              <p>
+                Current CGPA : 8.5
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Class 12 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020-2022</div>
+          <div class="timeline_3d">
+          <div class="timeline-content">
+            <h3>CSD Inter College</h3>
+            <h3>Higher Secondary</h3>
+            <p>
+             Percentage : 87%
+            </p>
+          </div>
+          </div>
+        </div>
+
+        <!-- univerity -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020</div>
+          <div class="timeline_3d">
+          <div class="timeline-content">
+            <h3>St.Mariam's School</h3>
+            <h3>Matriculation</h3>
+            <p>
+               Percentage : 65%
+            </p>
+          </div>
+          </div>
+    
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="skills" id="skills">
+      <h2 class="heading">Skills</h2>
+      <div class="skill-section">
+        <div class="skill">
+         <h1>Programming Language</h1>
+          <div>C</i></div>
+          <div>C++  <i class='bx bxl-c-plus-plus'></i></div>
+          <div>JAVA <i class='bx bxl-java' ></i></div>
+        </div>
+        <div class="skill">
+          <h1>Font-End</h1>
+          <div>HTML <i class='bx bxl-html5' ></i></div>
+          <div>CSS <i class='bx bxl-css3' ></i></div>
+          <div>JAVA SCRIPT <i class='bx bxl-javascript' ></i></div>
+          <div>TAILWIND CSS <i class='bx bxl-tailwind-css' ></i></div>
+        </div>
+        <div class="skill">
+          <h1>Backend</h1>
+          <div>NODE JS <i class='bx bxl-nodejs' ></i></div>
+          <div>EXPRESS JS</div>
+          <div>API</div>
+          <div>MONGO DB <i class='bx bxl-mongodb' ></i></div>
+        </div>
+       
+    </section>
+
+    <!-- Projects -->
+  <section id="project">
+    <h2 class="heading_project">Projects</h2>
+    <!-- <div class="project_btn">
+      <button id="prevBtn">Move Back</button>
+      <button id="nextBtn">Move Front</button>
+    </div> -->
+    <div class="project_section">
+      <div class="project_3d">
+        <div class="project_img">
+          <img src="/image/weather.avif"/>
+          <h2>Weather APP</h2>
+          <p>The weather app fetches real-time weather 
+            data from the OpenWeather API, providing accurate 
+            forecasts and current conditions for any location.</p>
+          <a href="https://weather-api-three-vert.vercel.app/">Visit Github</a>
+        </div>
+      </div>
+      <div class="project_3d">
+        <div class="project_img">
+          <img src="/image/product.jpg"/>
+          <h2>Redux Products Page</h2>
+          <p>This project showcases a simple e-commerce application
+            built with React, Redux Toolkit, and Tailwind CSS. It 
+            features a products page where users can browse items
+             and an add-to-cart functionality that allows users to 
+             manage their shopping cart.</p>
+             <a href="https://redux-product-page.vercel.app/">Visit Github</a>
+        </div>
+      </div>
+      <div class="project_3d">
+        <div class="project_img">
+          <img src="/image/rando.jpg"/>
+          <h2>Random Password Generator</h2>
+          <p>This repository contains a simple random password generator
+             application built with React JS and Tailwind CSS. The application
+              allows users to generate random passwords of varying length and 
+              complexity, and to copy the generated password to their clipboard 
+              with a single click.</p>
+              <a href="https://ankitpandey001.github.io/Random-Password-Generator/">Visit Github</a>
+        </div>
+      </div>
+      <div class="project_3d">
+        <div class="project_img">
+          <img src="/image/Todo.avif"/>
+          <h2>ToDo-App</h2>
+          <p>A Simple ToDo_App using React.JS</p>
+          <a href="https://ankitpandey001.github.io/TODO_APP/">Visit Github</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </body>
+  <script src="script.js"></script>
+</html>

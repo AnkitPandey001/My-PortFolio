@@ -1,0 +1,15 @@
+#Portfolio
+
+#This project is a personal portfolio website designed to showcase my skills, projects, and experiences. 
+It provides an overview of my professional background and includes sections such as About Me, Projects, 
+Skills, and Contact Information.
+
+#Technologies Used
+HTML: Used for structuring the content of the portfolio.
+CSS: Used for styling the HTML elements and creating a visually appealing layout.
+
+#Features
+Clean Layout: A clean and modern design that ensures easy navigation and readability.
+Interactive Elements: Includes interactive elements like hover effects and smooth scrolling for a better user experience.
+Projects Showcase: A dedicated section to showcase my projects with descriptions and links to the live versions or repositories.
+
